@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<table>
+     {% for course in courses %}
+     <tr>
+       <td>
+           {{ course.id }}
+       </td>
+       <td>
+           {{ course.name }}
+       </td>
+     </tr>
+     {% endfor %}
+ </table>
+</head>
+<body>
+
+</body>
+</html>
